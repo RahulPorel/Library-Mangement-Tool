@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Mangement Tool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- //  manual adding book to library -->
+    <h1 class="heading">Library Mangement Tool</h1>
+    <p class="heading">
+      Store your 💖 Favourite Book and access very easily & efficiently.
+    </p>
+    <p class="heading">From any where & anytime.</p>
+    <button id="new-book-btn">New Book</button>
+    <form id="new-book-form" style="display: none">
+      <!-- <label for="title">Title:</label> -->
+      <input type="text" id="title" placeholder="Title of book" />
+      <!-- <label for="author">Author:</label> -->
+      <input type="text" id="author" placeholder="Author of book" />
+      <!-- <label for="pages">Pages:</label> -->
+      <input type="text" id="pages" placeholder="No of page in book" />
+      <label for="read">Have your Read ? </label>
+      <input type="checkbox" id="read" />
+      <input type="submit" value="Add Book" id="add-book" />
+    </form>
+    <hr id="display-off" style="display: none" />
+    <div id="lib"></div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
+
+<!-- // api adding book to library -->
+<!-- <input id="input" />
+    <button onclick="getBooks()">Get Books</button> <br />
+    <div id="output"></div> -->

@@ -1,0 +1,190 @@
+* {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#new-book-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(255, 217, 0);
+  color: rgb(0, 0, 0);
+  font-size: 19.5px;
+}
+
+#new-book-btn:hover {
+  outline: 2px solid black;
+}
+
+#new-book-btn:focus {
+  outline: 3px solid rgb(206, 183, 183);
+}
+
+form {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 195, 255, 0.1);
+}
+
+input[type="text"],
+input[type="text"],
+select {
+  width: 90%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="text"]:focus,
+select:focus {
+  border-color: #333;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 0.2rem;
+  border: 0.25rem solid black;
+  border-radius: 2rem;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.95rem;
+  height: 0.95rem;
+  clip-path: circle(50% at 50% 50%);
+  transform: scale(0);
+  background-color: black;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="checkbox"]:hover {
+  color: black;
+}
+
+label {
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 18px;
+  margin-right: 12px;
+  color: #333;
+  font-weight: 500;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+}
+
+#lib {
+  text-align: center;
+}
+
+.book-card {
+  cursor: default;
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  margin: 15px 20px;
+  padding: 7.5px 30px;
+  border: 1 0.5px solid#ccc;
+  background: rgb(6, 156, 202);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+.book-card:hover {
+  scale: 1.1;
+  transition: 450ms;
+}
+
+.card-header {
+  color: #fff;
+  padding: 22px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  font-size: 27.5px;
+}
+
+.author {
+  margin: 5px 0 0 0;
+  font-size: 21.5px;
+}
+
+.card-body {
+  padding: 0px;
+  text-align: center;
+}
+
+.book-pages {
+  margin: 0;
+  font-size: 18.5px;
+}
+
+.read-status {
+  margin: 10px 0 0 0;
+  font-size: 17.5px;
+  color: white;
+  padding-bottom: 12px;
+}
+
+button {
+  margin: 12px;
+  padding: 10px 22px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffcc24;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+hr {
+  margin: 65px 0;
+}
